@@ -1,5 +1,4 @@
-generateRandom(2,4)	//generates a random number between 10 and 20
-console.log(generateRandom(2,4))
+generateRandom(11,24)	//generates a random number between 11 and 24
 
 function generateRandom(min,max){
 	var RandomNumber = Math.round(Math.random()*(max - min) + min)
